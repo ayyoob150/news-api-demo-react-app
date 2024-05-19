@@ -16,7 +16,7 @@ const useFetchApi = (query,category,source,date) => {
   
     return `${year}-${month}-${day}`;
   };
-
+// eslint-disable-next-line 
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -105,7 +105,7 @@ const useFetchApi = (query,category,source,date) => {
     };
 
      fetchData();
-    
+  // eslint-disable-next-line 
   }, [query,category,source,date]);
   
 

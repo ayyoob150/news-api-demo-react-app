@@ -18,6 +18,7 @@ const ContextProvider = ({ children }) => {
   
 
   const { data,setData,loading ,setLoading} = useFetchApi(query,category,source,date);
+  // eslint-disable-next-line 
   useEffect(()=>{
    if(author){
     const arr = data?.filter((item,_)=>(

@@ -8,6 +8,7 @@ import { useLocation } from "react-router-dom";
 function Home({data}) {
   const location = useLocation()
   const { loading,category,source ,author,query,setQuery,setSearch,setShowXmark,setDate} = useContext(context);
+  // eslint-disable-next-line
   useEffect(()=>{
     setQuery('')
     setSearch('')

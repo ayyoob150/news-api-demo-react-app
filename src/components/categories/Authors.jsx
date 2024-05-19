@@ -6,7 +6,7 @@ const Authors = () => {
     const [authorArr , setAuthorArr]=useState([])
     const {SetSelectedTab} = useContext(context)
 
-
+// eslint-disable-next-line
     useEffect(()=>{
         const arr = data?.map((item,i)=>(item?.author))
         setAuthorArr(arr)

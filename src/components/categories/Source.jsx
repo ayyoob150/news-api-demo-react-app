@@ -4,6 +4,7 @@ import { context } from '../../context/ContextProvider'
 const Source = () => {
     const {data,setSource} = useContext(context)
     const [sourceArr , setSourceArr]=useState([])
+    // eslint-disable-next-line
     useEffect(()=>{
         const arr = data?.map((item,_)=>(item?.source))
         setSourceArr(arr)

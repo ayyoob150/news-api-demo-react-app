@@ -16,6 +16,8 @@ function SearchPage({data}) {
     return `${year}-${month}-${day}`;
   };
 
+
+// eslint-disable-next-line
   useEffect(()=>{
     const arr = data?.map((item,_)=>{
       arrSource.push(item?.source)
