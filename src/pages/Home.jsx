@@ -14,6 +14,7 @@ function Home({data}) {
     setSearch('')
     setDate('')
     setShowXmark(false)
+     // eslint-disable-next-line 
   },[location?.pathname])
   return (
     <>

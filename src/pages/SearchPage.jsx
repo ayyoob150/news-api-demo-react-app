@@ -25,7 +25,7 @@ function SearchPage({data}) {
     })
     setSourceArr(arrSource)
     setCategoryArr(arr)
-
+ // eslint-disable-next-line 
 },[data])
   
 

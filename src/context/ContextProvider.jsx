@@ -42,6 +42,7 @@ const ContextProvider = ({ children }) => {
 
     setData(sourArr)
    }
+    // eslint-disable-next-line 
   },[author,categorySearch,sourceSearch])
   
 
