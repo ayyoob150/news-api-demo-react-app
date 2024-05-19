@@ -22,7 +22,7 @@ const useFetchApi = (query,category,source,date) => {
       try {
         setLoading(true)
         const api1 = "80e09183-ebd4-4542-a2c2-efadd748152e";
-        const api2 = "f58fc595d7a9482ebc2c8ab0c69889d8"// "9b8e2954faea4b89888b27d382c4aad5";
+        const api2 = "9b8e2954faea4b89888b27d382c4aad5";
         const api3 = "cRS2RIl5IIom1fZAt2oUPadTkibFsMT4";
 
         const [response1, response2, response3] = await Promise.all([
